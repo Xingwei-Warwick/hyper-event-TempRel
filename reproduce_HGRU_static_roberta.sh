@@ -1,0 +1,3 @@
+python exp_HGRU_static.py --hid_dim 128 --nn_hid_dim 64 --step_size 10 --gamma 0.3 --common_sense_emb_dim 32 --granularity 0.25 --bigramstats_dim 1 --weight_decay 1e-1 --batch 200 --expname HGRU_cse_gran25_sd102_wd01_static --lr 0.001 --context roberta-base --testsetname matres --cuda 1 --skiptraining
+
+python exp_HGRU_static.py --hid_dim 128 --nn_hid_dim 64 --step_size 10 --gamma 0.3 --common_sense_emb_dim 32 --granularity 0.25 --bigramstats_dim 1 --weight_decay 1e-1 --batch 200 --expname HGRU_cse_gran25_sd102_wd01_static --lr 0.001 --context roberta-base --testsetname tcr --cuda 1 --skiptraining
