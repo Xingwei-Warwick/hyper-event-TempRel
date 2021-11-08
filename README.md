@@ -10,7 +10,22 @@ The code is modified based on the open-source repository of [1], which is one of
 
 
 If our code helps, please consider adding the following reference:
->Xingwei Tan, Gabriele Pergola, and Yulan He. 2021. Extracting Event Temporal Relations via Hyperbolic Geometry. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+```
+@inproceedings{tan-etal-2021-extracting,
+    title = "Extracting Event Temporal Relations via Hyperbolic Geometry",
+    author = "Tan, Xingwei  and
+      Pergola, Gabriele  and
+      He, Yulan",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.636",
+    pages = "8065--8077",
+    abstract = "Detecting events and their evolution through time is a crucial task in natural language understanding. Recent neural approaches to event temporal relation extraction typically map events to embeddings in the Euclidean space and train a classifier to detect temporal relations between event pairs. However, embeddings in the Euclidean space cannot capture richer asymmetric relations such as event temporal relations. We thus propose to embed events into hyperbolic spaces, which are intrinsically oriented at modeling hierarchical structures. We introduce two approaches to encode events and their temporal relations in hyperbolic spaces. One approach leverages hyperbolic embeddings to directly infer event relations through simple geometrical operations. In the second one, we devise an end-to-end architecture composed of hyperbolic neural units tailored for the temporal relation extraction task. Thorough experimental assessments on widely used datasets have shown the benefits of revisiting the tasks on a different geometrical space, resulting in state-of-the-art performance on several standard metrics. Finally, the ablation study and several qualitative analyses highlighted the rich event semantics implicitly encoded into hyperbolic spaces.",
+}
+```
 
 Reproduction
 -----
